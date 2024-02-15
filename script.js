@@ -44,7 +44,7 @@ const locations = [
     name: "Plaza del pueblo",
     "button text": ["Ir a la tienda", "Ir a la cueva", "Luchar contra el Dragon"],
     "button functions": [goStore, goCave, fightDragon],
-    text: "Estas en la plaza del pueblo. Vees un letrero que dice \"Store\"."
+    text: "Estas en la plaza del pueblo. Ves un letrero que dice \"Tienda\"."
   },
   {
     name: "Tienda",
@@ -56,7 +56,7 @@ const locations = [
     name: "Cueva",
     "button text": ["Luchar con el slime", "Luchar contra la bestia con colmillos", "Ir a la plaza del pueblo"],
     "button functions": [fightSlime, fightBeast, goTown],
-    text: "Entraste a la cueva. Vees algunos monstruos."
+    text: "Entraste a la cueva. Ves algunos monstruos."
   },
   {
     name: "Luchar",
